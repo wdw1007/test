@@ -2,21 +2,28 @@
 # welcome!
 - hello world!   
 
-- the first use this
-git init 	to make a .git   
-- the second  
-make some files and then ues the "git add <filename>" to push these files to index 
-- the third   
-git commit -m "some information" 	to make them to the HEAD 
-- the fourst
-git push origin master/<branch name> 	to make them to the github/etc.   
+- the first use this to make a .git   
+ git init   
+
+- the second touch some files and push these files to index  
+ git add < file-name >   
+
+- the third - make files to the HEAD   
+git commit -m "some information"   
+
+- the fourth - make files to github/etc.   
+git push origin master/< branch name >  
 --if you don't make any remote repo then:   
-git remote add origin <server>   
+git remote add origin < server >   
+
 - make branch   
 git checkout -b a_branch   
+
 - go back to master branch   
 git checkout master   
+
 - remove the branch   
 git branch -d a_branch   
+
 - push the branch   
-git push origin <branch>   
+git push origin < branch >   
